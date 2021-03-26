@@ -33,6 +33,13 @@
         </div>
     </header>
     <main class="">
+        <section class="flex container mx-auto my-5">
+            <h3><a class="uppercase text-sm text-blue-400 hover:underline" href="index.php">Trang chủ</a></h3>
+            <i class="fas fa-angle-right px-3 items-center flex text-sm text-gray-400"></i>
+            <h3><a class="uppercase text-sm text-blue-400 hover:underline" href="tourNoithanh.php">tour ngoại thành</a></h3>
+            <i class="fas fa-angle-right px-3 items-center flex text-sm text-gray-400"></i>
+            <h3><a class="uppercase text-sm" href="tourNoithanh.php">tên tour</a></h3>
+        </section>
         <section class="bg-white my-5">
             <div class="container mx-auto grid grid-cols-12 justify-center">
                 <div class="col-span-6 my-5 bg-white m-2">
@@ -57,7 +64,7 @@
                     </div>
 
                 </div>
-                <div class="col-span-6 my-5 bg-gray-100 bg-opacity-25 pl-2.5">
+                <div class="col-span-6 my-5 bg-gray-100 bg-opacity-50 pl-2.5">
                     <div class="px-10 pt-5">
                         <h2 class="font-bold text-4xl">Tên tour</h2>
                         <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-3"></div>
@@ -85,7 +92,7 @@
                             <p class="ml-10"><i class="fas fa-map-marker-alt py-2 pr-2"></i>Hà Nội</p>
                         </div>
                         <div class="my-10">
-                            <a href="#" class=" text-black border hover:border-yellow-400 px-12 py-3 w-full text-base rounded bg-red-400 hover:bg-white text-center">Đặt ngay</a>
+                            <a href="cart.php" class=" text-black border hover:border-yellow-400 px-12 py-3 w-full text-base rounded bg-red-400 hover:bg-white text-center">Đặt ngay</a>
                         </div>
                         <div class="flex items-center mt-7">
                             <span>Chia sẻ</span>
@@ -101,17 +108,23 @@
                 </div>
             </div>
         </section>
-        <section class="bg-gray-100 bg-opacity-25 py-10"></section>
+        <!-- <section class="bg-gray-100 bg-opacity-50 py-10"></section> -->
         <section class="bg-white">
             <div class=" container mx-auto">
                 <div class="bg-white grid grid-cols-12 my-10">
-                    <div class="col-span-9 bg-gray-100 p-10 bg-opacity-25">
-                        <div class="my-5">
+                    <div class="col-span-9 bg-gray-100 p-5 bg-opacity-50">
+                        <div class="">
                             <h2 class="text-3xl container mx-auto">Mô tả sản phẩm</h2>
                             <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
                         </div>
-                        <p class="text-justify">Du lịch Chùa Hương là một nét đẹp trong đời sống tâm linh của người dân Việt Nam, bởi chùa là nơi linh thiêng để gìn giữ và truyền bá tư tưởng của Đức Phật. Để quên đi những ồn ào của cuộc sống và cầu mong cho gia đình, người thân một năm mới tràn đầy hạnh phúc và sức khỏe. Hãy đồng hành cùng Du Lịch Việt trong touir lễ chùa Hương này để khám phá cảnh đẹp và lễ chùa linh thiêng.</p>
-                        <div class="border-b w-72 bg-gray-400 mx-auto my-1"></div>
+                        <div class="mt-5">
+                            <p class="text-justify">Du lịch Chùa Hương là một nét đẹp trong đời sống tâm linh của người dân Việt Nam, bởi chùa là nơi linh thiêng để gìn giữ và truyền bá tư tưởng của Đức Phật. Để quên đi những ồn ào của cuộc sống và cầu mong cho gia đình, người thân một năm mới tràn đầy hạnh phúc và sức khỏe. Hãy đồng hành cùng Du Lịch Việt trong touir lễ chùa Hương này để khám phá cảnh đẹp và lễ chùa linh thiêng.</p>
+                            <img class="mx-auto my-5" src="./content/image/hoan-kiem.jpg" alt="">
+                        </div>
+                        <div class="my-5">
+                            <h2 class="text-3xl container mx-auto">Lịch trình</h2>
+                            <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
+                        </div>
                         <div>
                             <ul>
                                 <li class="text-justify"><span class="font-bold">07:45 – 08:30:</span> Hướng dẫn viên và lái xe đón Quý khách tại khách sạn đi tham quan Chùa Trấn Quốc – ngôi chùa thiêng nằm bên bờ Hồ Tây.</li>
@@ -136,12 +149,12 @@
                             <img class="mx-auto my-5" src="./content/image/tran-quoc.jpg" alt="">
                         </div>
                     </div>
-                    <div class=" col-span-3 ml-10 bg-gray-100 bg-opacity-25">
-                        <div class="my-5">
+                    <div class=" col-span-3 ml-10 p-5 bg-gray-100 bg-opacity-50">
+                        <div class="">
                             <h2 class="text-3xl mx-2">Tour liên quan</h2>
                             <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2 mx-2"></div>
                         </div>
-                        <div>
+                        <div class="mt-5">
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
                                     <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
@@ -153,10 +166,10 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
-                            <div class="border-b w-72 bg-gray-400 mx-auto my-1"></div>
+                            <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
                                     <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
@@ -168,10 +181,10 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
-                            <div class="border-b w-72 bg-gray-400 mx-auto my-1"></div>
+                            <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
                                     <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
@@ -183,10 +196,10 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
-                            <div class="border-b w-72 bg-gray-400 mx-auto my-1"></div>
+                            <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
                                     <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
@@ -198,24 +211,39 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
-                            <div class="border-b w-72 bg-gray-400 mx-auto my-1"></div>
+                            <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
+                            <a class="group shadow-lg rounded-md" href="">
+                                <div class="overflow-hidden rounded-md border border-white">
+                                    <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
+                                </div>
+                                <div class="text-left px-5 py-3">
+                                    <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
+                                    <div class="flex mt-2  items-center">
+                                        <i class="fas fa-map-marker-alt py-2 pr-5"></i>
+                                        <p class="text-sm">Hà Nội</p>
+                                    </div>
+                                    <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
+                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="bg-gray-100 bg-opacity-25 py-10"></section>
-        <section>
-            <div class="text-3xl py-10 bg-gray-100">
-                <h2 class=" container mx-auto">Nhận xét của khách hàng</h2>
+        <!-- <section class="bg-gray-100 bg-opacity-50 py-10"></section> -->
+        <section class="bg-gray-100 container mx-auto p-5">
+            <div class="my-5">
+                <h2 class="text-3xl ">Nhận xét của khách hàng</h2>
+                <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
             </div>
-            <div class="grid grid-cols-7 container mx-auto">
-                <div class="col-span-3 border-r px-32 my-5">
+            <div class="grid grid-cols-7 mb-10">
+                <div class="col-span-3 border-r px-32">
                     <div>
-                        <h3 class="my-4 text-xl">Đánh giá tổng thể</h3>
+                        <h3 class="my-4 text-xl font-bold">Đánh giá tổng thể</h3>
                         <div class="flex items-center">
                             <div class="pr-8">
                                 <i class="fas fa-star text-yellow-300"></i>
@@ -224,7 +252,7 @@
                                 <i class="fas fa-star text-yellow-300"></i>
                                 <i class="fas fa-star text-yellow-300"></i>
                             </div>
-                            <span class="px-2">tb đánh giá</span>
+                            <span class="px-2">33</span>
                             <span>(lượt đánh giá)</span>
                         </div>
                     </div>
@@ -240,7 +268,7 @@
                                 <i class="fas fa-star text-yellow-300"></i>
                                 <i class="fas fa-star text-yellow-300"></i>
                             </div>
-                            <p><span class="px-2">???</span>đánh giá</p>
+                            <p><span class="px-2">31</span>đánh giá</p>
                         </button>
                         <!-- 5 sao -->
                         <button class="flex items-center py-3">
@@ -252,7 +280,7 @@
                                 <i class="fas fa-star text-yellow-300"></i>
                                 <i class="fas fa-star text-gray-300"></i>
                             </div>
-                            <p><span class="px-2">???</span>đánh giá</p>
+                            <p><span class="px-2">32</span>đánh giá</p>
                         </button>
                         <!-- 4 sao -->
                         <button class="flex items-center py-3">
@@ -264,7 +292,7 @@
                                 <i class="fas fa-star text-gray-300"></i>
                                 <i class="fas fa-star text-gray-300"></i>
                             </div>
-                            <p><span class="px-2">???</span>đánh giá</p>
+                            <p><span class="px-2">33</span>đánh giá</p>
                         </button>
                         <!-- 3 sao -->
                         <button class="flex items-center py-3">
@@ -276,7 +304,7 @@
                                 <i class="fas fa-star text-gray-300"></i>
                                 <i class="fas fa-star text-gray-300"></i>
                             </div>
-                            <p><span class="px-2">???</span>đánh giá</p>
+                            <p><span class="px-2">34</span>đánh giá</p>
                         </button>
                         <!-- 2 sao -->
                         <button class="flex items-center py-3">
@@ -288,32 +316,65 @@
                                 <i class="fas fa-star text-gray-300"></i>
                                 <i class="fas fa-star text-gray-300"></i>
                             </div>
-                            <p><span class="px-2">???</span>đánh giá</p>
+                            <p><span class="px-2">35</span>đánh giá</p>
                         </button>
                         <!-- 1 sao -->
                     </div>
 
                 </div>
-                <div class="col-span-4 my-5 px-10">
-                    <h3 class="my-4 text-xl">Nhận xét</h3>
-                    <div>
-                        <div class="flex items-center">
-                            <img class="h-10 w-14" src="../images/logoshow.png" alt="">
+                <div class="col-span-4 px-10">
+                    <h3 class="my-4 text-xl font-bold">Nhận xét</h3>
+                    <div class="grid grid-cols-8 mb-5">
+                        <div class="col-span-1 items-center">
+                            <img class="" src="./content/image/user.png" alt="">
                             <span class="px-3">Tên đăng nhập</span>
                         </div>
-                        <div>
-                            <span></span>
-                            <p></p>
+                        <div class="col-span-7 py-1">
+                            <div class="bg-white py-1 px-5">
+                                <div class="flex">
+                                    <div class="">
+                                        <i class="fas fa-star text-yellow-300"></i>
+                                        <i class="fas fa-star text-yellow-300"></i>
+                                        <i class="fas fa-star text-yellow-300"></i>
+                                        <i class="fas fa-star text-yellow-300"></i>
+                                        <i class="fas fa-star text-yellow-300"></i>
+                                    </div>
+                                </div>
+                                <p class="py-2">Tôi đi tour vòng quanh Hà Nội thấy các dịch vụ của công ty khá ổn
+                                    từ
+                                    khách sạn,
+                                    nhà
+                                    hàng,
+                                    phương tiện di
+                                    chuyển đến hành trình tham quan. Không phát sinh chi phí phụ là
+                                    điều
+                                    tuyệt với.</p>
+                                <a href="" class="text-blue-500">Trả lời</a>
+                                <span class="px-2 text-sm "><i class="fas fa-user-clock px-1"></i>25/03/2021</span>
+                            </div>
+                            <div class="bg-white ml-2 mt-2 px-5 py-2">
+                                <div class="flex items-center">
+                                    <img class="w-10" src="./content/image/user.png" alt="">
+                                    <span class="px-5">Tên admin</span>
+                                    <span class="bg-yellow-400 px-1">Quản trị viên</span>
+                                </div>
+                                <p class="py-2">Cảm ơn bạn đã chọn tour của chúng tôi</p>
+                                <a href="" class="text-blue-500">Trả lời</a>
+                                <span class="px-2 text-sm "><i class="fas fa-user-clock px-1"></i>25/03/2021</span>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-            <form class="container mx-auto" action="./admin/comment/postComment.php" method="POST" enctype="multipart/form-data">
-                <div class="flex items-center">
-                    <img class="h-10 w-14" src="../images/logoshow.png" alt="">
+            </div>
+            </div>
+            <form class="mx-10 mb-5 bg-white py-2" action="./admin/comment/postComment.php" method="POST" enctype="multipart/form-data">
+                <div class="flex items-center px-10">
+                    <img class="" src="./content/image/user.png" alt="">
                     <span class="px-3">Tên đăng nhập</span>
                 </div>
-                <div class="mr-150 mx-10" id="rating">
+                <div class="mr-180 mx-10" id="rating">
                     <input class="mx-5" type="radio" id="star5" name="rating" value="5" />
                     <label class="full px-1 py-5 text-2xl" for="star5" title="Awesome - 5 stars"></label>
 
@@ -328,10 +389,17 @@
 
                     <input class="mx-5" type="radio" id="star1" name="rating" value="1" />
                     <label class="full px-1 py-5 text-2xl" for="star1" title="Sucks big time - 1 star"></label>
+
                 </div>
                 <div class="my-5 flex px-10 w-full">
-                    <textarea class="border px-5 py-2 focus:outline-none" name="comment" id="" cols="145" rows="2"></textarea>
-                    <button name="btn_sent" class="mx-3 border px-10  focus:outline-none">Gửi</button>
+                    <form action="">
+                        <div class="hidden">
+                            <input type="text" id="countstar" value="">
+                        </div>
+                        <textarea class="border px-5 py-2 focus:outline-none  w-full" name="comment" id="" cols="145" rows="2"></textarea>
+                        <button name="btn_sent" class="mx-3 border px-10 bg-white focus:outline-none">Gửi</button>
+                    </form>
+
                 </div>
             </form>
         </section>
@@ -343,6 +411,32 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="./content/slick-1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="./content/js/sliderProduct.js"></script>
+    <script type="text/javascript" src="./content/js/product.js"></script>
+
+    <script>
+        var star1 = document.getElementById("star1");
+        var star2 = document.getElementById("star2");
+        var star3 = document.getElementById("star3");
+        var star4 = document.getElementById("star4");
+        var star5 = document.getElementById("star5");
+        var countstar = document.getElementById("countstar");
+
+        star1.addEventListener("click", function() {
+            countstar.value = 1;
+        })
+        star2.addEventListener("click", function() {
+            countstar.value = 2;
+        })
+        star3.addEventListener("click", function() {
+            countstar.value = 3;
+        })
+        star4.addEventListener("click", function() {
+            countstar.value = 4;
+        })
+        star5.addEventListener("click", function() {
+            countstar.value = 5;
+        })
+    </script>
 </body>
 
 </html>

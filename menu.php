@@ -4,44 +4,44 @@
 <nav class="flex justify-center items-center col-span-6 ml-5">
     <ul>
         <li class="inline-block px-4 h-full hover:text-black">
-            <a class="relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-blue-400" href="index.php">trang chủ
-                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-blue-400 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
+            <a class=" font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="index.php">trang chủ
+                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-yellow-500 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
                 </div>
             </a>
         </li>
         <li class="inline-block px-4 h-full hover:text-black">
-            <a class="relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-blue-400" href="index.php">giới thiệu
-                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-blue-400 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
+            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="index.php">giới thiệu
+                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-yellow-500 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
                 </div>
             </a>
         </li>
         <li class="inline-block px-4 h-full hover:text-black">
-            <a class="relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-blue-400" href="tourNoithanh.php">tour
+            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="tourNoithanh.php">tour
                 nội
                 thành
-                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-blue-400 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
+                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-yellow-500 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
                 </div>
             </a>
         </li>
         <li class="inline-block px-4 h-full hover:text-black">
-            <a class="relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-blue-400" href="index.php">tour
+            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="tourNgoaithanh.php">tour
                 ngoại
                 thành
-                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-blue-400 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
+                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-yellow-500 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
                 </div>
             </a>
         </li>
         <li class="inline-block px-4 h-full hover:text-black">
-            <a class="relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-blue-400" href="index.php">ưu
+            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="index.php">ưu
                 đãi
-                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-blue-400 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
+                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-yellow-500 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
                 </div>
             </a>
         </li>
         <li class="inline-block px-4 h-full hover:text-black">
-            <a class="relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-blue-400" href="index.php">liên
+            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="contact.php">liên
                 hệ
-                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-blue-400 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
+                <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-yellow-500 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
                 </div>
             </a>
         </li>

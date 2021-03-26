@@ -7,6 +7,7 @@ module.exports = {
         'background5': "url('image/background5.jpg')",
       }),
       margin: {
+        '85': '21.25rem',
         '140': '35rem',
         '150': '37.5rem',
         '170': '40rem',

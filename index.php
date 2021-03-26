@@ -30,6 +30,11 @@
                 .background5 {
                         background-image: url('./content/image/background/background5.jpg');
                 }
+
+                .sticky {
+                        background-color: green;
+                        transition: 0.7s;
+                }
         </style>
 </head>
 
@@ -43,10 +48,10 @@
                                 <div><img class="w-full object-contain object-center" src="./content/image/sliderBanner/van-mieu.jpg" alt=""></div>
                                 <div><img class="w-full object-contain object-center" src="./content/image/sliderBanner/lang-bac.jpg" alt=""></div>
                         </div>
-                        <div class="absolute top-0 left-0 right-0 bg-blue-400 bg-opacity-50">
+                        <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
                                 <?php require "headerTop.php"; ?>
                         </div>
-                        <div class="absolute top-0 flex mt-8 px-32">
+                        <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
                                 <?php require "menu.php"; ?>
                         </div>
                         <div class="absolute bottom-0 left-0 mx-72 my-20">
@@ -514,7 +519,7 @@
                                                 <i class="fas fa-star-half-alt text-blue-500"></i>
                                         </p>
                                         <span class="text-center block">Name</span>
-                                        <p class="mx-10 italic my-3 text-justify">Tôi đi Đà Lạt thấy các dịch vụ khá ổn
+                                        <p class="mx-10 italic my-3 text-justify">Tôi đi tour vòng quanh Hà Nội thấy các dịch vụ của công ty khá ổn
                                                 từ
                                                 khách sạn,
                                                 nhà
@@ -535,7 +540,7 @@
                                                 <i class="fas fa-star-half-alt text-blue-500"></i>
                                         </p>
                                         <span class="text-center block">Name</span>
-                                        <p class="mx-10 italic my-3 text-justify">Tôi đi Đà Lạt thấy các dịch vụ khá ổn
+                                        <p class="mx-10 italic my-3 text-justify">Tôi đi tour vòng quanh Hà Nội thấy các dịch vụ của công ty khá ổn
                                                 từ
                                                 khách sạn,
                                                 nhà
@@ -556,7 +561,7 @@
                                                 <i class="fas fa-star-half-alt text-blue-500"></i>
                                         </p>
                                         <span class="text-center block">Name</span>
-                                        <p class="mx-10 italic my-3 text-justify">Tôi đi Đà Lạt thấy các dịch vụ khá ổn
+                                        <p class="mx-10 italic my-3 text-justify">Tôi đi tour vòng quanh Hà Nội thấy các dịch vụ của công ty khá ổn
                                                 từ
                                                 khách sạn,
                                                 nhà
@@ -635,5 +640,11 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="./content/slick-1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript" src="./content/js/index.js"></script>
+<!-- <script>
+        var navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", function() {
+                navbar.classList.toggle("sticky", window.scrollY > 0);
+        })
+</script> -->
 
 </html>
