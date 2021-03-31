@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="./content/build/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
     <style>
         /* .bg-noithanh1 {
             background-image: url('./content/image/background/bg-noithanh1.jpg');
@@ -18,10 +20,14 @@
         .background4 {
             background-image: url('./content/image/background/background4.jpg');
         }
+
+        .nunito {
+            font-family: 'Nunito', sans-serif;
+        }
     </style>
 </head>
 
-<body>
+<body class="nunito">
     <header class="relative">
         <img src="./content/image/background/bg-noithanh1.jpg" alt="">
         <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
@@ -30,17 +36,15 @@
         <div class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
             <?php require "menu.php"; ?>
         </div>
-        <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white">
-            <h3 class="font-bold text-2xl uppercase text-center"><a href="">điểm đến nội thành</a></h3>
-            <img class="w-20 mx-170 pt-3" src="./content/image/gachvang.png" alt="">
+        <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white bg-opacity-80 rounded-t-md">
+            <h3 class="font-bold text-2xl uppercase text-center "><a href="">điểm đến nội thành</a></h3>
+            <img class="w-20 mx-170" src="./content/image/gachvang.png" alt="">
         </div>
     </header>
     <section class="flex container mx-auto my-5">
         <h3><a class="uppercase text-sm text-blue-400 hover:underline" href="index.php">Trang chủ</a></h3>
         <i class="fas fa-angle-right px-3 items-center flex text-sm text-gray-400"></i>
-        <h3><a class="uppercase text-sm" href="tourNoithanh.php">tour
-                nội
-                thành</a></h3>
+        <h3><a class="uppercase text-sm" href="tourNoithanh.php">tour nội thành</a></h3>
     </section>
     <section class="container mx-auto grid grid-cols-12">
         <div class="col-span-2">
@@ -85,42 +89,42 @@
                 </div>
             </div>
             <div class="mt-10">
-                <h2 class="text-xl font-bold uppercase"><a href="#">Ưu đãi thành viên</a></h2>
+                <h2 class="text-xl font-bold uppercase"><a href="#">Ưu đãi Voucher</a></h2>
                 <div class="border-b-2 rounded-full bg-gray-200 w-24 my-5"></div>
                 <a class="" href="">
-                    <img src="./content/image/Thẻ thành viên/sea.png" alt="">
+                    <img class="rounded-md" src="./content/image/Thẻ thành viên/5.png" alt="">
                     <div class="">
-                        <h3 class="text-center font-bold my-2">Hạng thẻ SEA</h3>
+                        <h3 class="text-center font-bold my-2">Voucher SEA</h3>
                         <ul class="list-disc list-inside">
-                            <li class="py-px">Giảm 2-5% cho tour nội thành</li>
-                            <li class="py-px">Giảm 2-3% cho tour ngoại thành</li>
+                            <li class="py-px">Giảm 3% cho tour nội thành</li>
+                            <li class="py-px">Giảm 5% cho tour ngoại thành</li>
                         </ul>
                     </div>
-                    <p class="py-3 text-right uppercase text-yellow-500 underline group-hover:text-blue-600 text-sm">đăng ký ngay</p>
+                    <p class="py-3 text-right uppercase text-yellow-500 underline group-hover:text-blue-600 text-sm">đặt tour ngay</p>
                 </a>
                 <div class="border-gray-300 border-b mb-3"></div>
                 <a class="group" href="">
-                    <img src="./content/image/Thẻ thành viên/sky.png" alt="">
+                    <img class="rounded-md" src="./content/image/Thẻ thành viên/7.png">
                     <div class="">
-                        <h3 class="text-center font-bold my-2">Hạng thẻ SKY</h3>
+                        <h3 class="text-center font-bold my-2">Voucher SKY</h3>
                         <ul class="list-disc list-inside">
-                            <li class="py-px">Giảm 3-7% cho tour nội thành</li>
-                            <li class="py-px">Giảm 3-5% cho tour ngoại thành</li>
+                            <li class="py-px">Giảm 5% cho tour nội thành</li>
+                            <li class="py-px">Giảm 7% cho tour ngoại thành</li>
                         </ul>
                     </div>
-                    <p class="py-3 text-right uppercase text-yellow-500 underline group-hover:text-blue-600 text-sm">đăng ký ngay</p>
+                    <p class="py-3 text-right uppercase text-yellow-500 underline group-hover:text-blue-600 text-sm">đặt tour ngay</p>
                 </a>
                 <div class="border-gray-300 border-b mb-3"></div>
                 <a class="" href="">
-                    <img src="./content/image/Thẻ thành viên/sun.png" alt="">
+                    <img class="rounded-md" src="./content/image/Thẻ thành viên/10.png" alt="">
                     <div class="">
-                        <h3 class="text-center font-bold my-2">Hạng thẻ SUN</h3>
+                        <h3 class="text-center font-bold my-2">Voucher SUN</h3>
                         <ul class="list-disc list-inside">
-                            <li class="py-px">Giảm 4-10% cho tour nội thành</li>
-                            <li class="py-px">Giảm 4-8% cho tour ngoại thành</li>
+                            <li class="py-px">Giảm 7% cho tour nội thành</li>
+                            <li class="py-px">Giảm 10% cho tour ngoại thành</li>
                         </ul>
                     </div>
-                    <p class="py-3 text-right uppercase text-yellow-500 underline group-hover:text-blue-600">đăng ký ngay</p>
+                    <p class="py-3 text-right uppercase text-yellow-500 underline group-hover:text-blue-600">đặt tour ngay</p>
                 </a>
             </div>
 
@@ -138,8 +142,12 @@
                     </select>
                     <select class="px-3 w-40 py-2 text-sm bg-white mx-2 focus:outline-none border border-black hover:border-yellow-400" name="" id="">
                         <option cate="">Điểm khởi hành</option>
-                        <option cate="">Hà Nội</option>
-                        <option cate="">Hồ Chí Minh</option>
+                        <option cate="">Ba Đình</option>
+                        <option cate="">Hoàn Kiếm</option>
+                        <option cate="">Đống Đa</option>
+                        <option cate="">Hà Đông</option>
+                        <option cate="">Cầu Giấy</option>
+                        <option cate="">Tây Hồ</option>
                     </select>
                 </div>
                 <div class="flex justify-center items-center ">
@@ -164,7 +172,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Ba Đình</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 mb-1 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -178,7 +186,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Hoàn Kiếm</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -192,7 +200,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Đống Đa</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -206,7 +214,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Hà Đông</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -220,7 +228,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Cầu Giấy</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -234,7 +242,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Tây Hồ</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -248,7 +256,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Bắc Từ Liêm</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -262,7 +270,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Nam Từ Liêm</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -276,7 +284,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Long Biên</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -290,7 +298,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Thanh Xuân</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -304,7 +312,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Hoàng Mai</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
@@ -318,7 +326,7 @@
                         <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
                         <div class="flex mt-2  items-center">
                             <i class="fas fa-map-marker-alt py-2 pr-5"></i>
-                            <p class="text-sm">Hà Nội</p>
+                            <p class="text-sm">Hai Bà Trưng</p>
                         </div>
                         <p class="py-3">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>

@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="./content/build/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
     <style>
         /* .bg-noithanh1 {
             background-image: url('./content/image/background/bg-noithanh1.jpg');
@@ -18,21 +20,25 @@
         .background4 {
             background-image: url('./content/image/background/background4.jpg');
         }
+
+        .nunito {
+            font-family: 'Nunito', sans-serif;
+        }
     </style>
 </head>
 
-<body>
+<body class="nunito">
     <header class="relative">
-        <img src="./content/image/background/bg-lienhe.jpg" alt="">
+        <img src="./content/image/background/banner-lien-he.jpg" alt="">
         <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
             <?php require "headerTop.php"; ?>
         </div>
         <div class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
             <?php require "menu.php"; ?>
         </div>
-        <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white">
-            <h3 class="font-bold text-2xl uppercase text-center"><a href="">Liên hệ với chúng tôi</a></h3>
-            <img class="w-20 mx-170 pt-3" src="./content/image/gachvang.png" alt="">
+        <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white bg-opacity-80 rounded-t-md">
+            <h3 class="font-bold text-2xl uppercase text-center "><a href="">Liên hệ với chúng tôi</a></h3>
+            <img class="w-20 mx-170" src="./content/image/gachvang.png" alt="">
         </div>
     </header>
     <main class="mx-auto" style="max-width: 1280px;">

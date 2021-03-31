@@ -10,7 +10,7 @@
             </a>
         </li>
         <li class="inline-block px-4 h-full hover:text-black">
-            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="index.php">giới thiệu
+            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="introduce.php">giới thiệu
                 <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-yellow-500 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
                 </div>
             </a>
@@ -32,7 +32,7 @@
             </a>
         </li>
         <li class="inline-block px-4 h-full hover:text-black">
-            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="index.php">ưu
+            <a class="font-bold relative group uppercase text-white text-base border-b pb-2 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear hover:text-yellow-500" href="customer.php">ưu
                 đãi
                 <div class="absolute bottom-0 left-0 right-0 h-1 rounded-full bg-yellow-500 -mb-1 transform scale-0 group-hover:scale-100 animation duration-300 ease-linear">
                 </div>

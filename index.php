@@ -10,6 +10,8 @@
         <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick.css" />
         <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick-theme.css" />
         <link rel="stylesheet" href="./content/build/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
         <style>
                 .background1 {
                         background-image: url('./content/image/background/background1.jpg');
@@ -31,22 +33,18 @@
                         background-image: url('./content/image/background/background5.jpg');
                 }
 
-                .sticky {
-                        background-color: green;
-                        transition: 0.7s;
+                .nunito {
+                        font-family: 'Nunito', sans-serif;
                 }
         </style>
 </head>
 
-<body>
+<body class="nunito">
         <header>
                 <div class="relative">
                         <div class="sliderBanner">
-                                <div><img class="w-full object-contain object-center" src="./content/image/sliderBanner/hoan-kiem.jpg" alt=""></div>
-                                <div><img class="w-full object-contain object-center" src="./content/image/sliderBanner/chua-huong.jpg" alt=""></div>
-                                <div><img class="w-full object-contain object-center" src="./content/image/sliderBanner/lang-gom.jpg" alt=""></div>
-                                <div><img class="w-full object-contain object-center" src="./content/image/sliderBanner/van-mieu.jpg" alt=""></div>
-                                <div><img class="w-full object-contain object-center" src="./content/image/sliderBanner/lang-bac.jpg" alt=""></div>
+                                <img class="focus:outline-none" src="./content/image/sliderBanner/tran-quoc.jpg" alt="">
+                                <img class="focus:outline-none" src="./content/image/sliderBanner/tran-quoc.jpg" alt="">
                         </div>
                         <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
                                 <?php require "headerTop.php"; ?>
@@ -67,60 +65,46 @@
                 <div class="text-center">
                         <p>Những điểm đến trên cả tuyệt vời</p>
                         <div class="py-5">
-                                <h3 class="font-bold text-2xl uppercase">thiên đường hội tụ - lựa chọn ngày lễ</h3>
-                                <img class="w-20 mx-180" src="./content/image/gachvang.png" alt="">
+                                <h3 class="font-bold text-2xl uppercase">tour lễ 30/04 - 01/05</h3>
+                                <img class="w-20 mx-auto mt-2" src="./content/image/gachvang.png" alt="">
                         </div>
                 </div>
                 <div class="topLike">
-                        <div class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white">
-                                <a class="" href="#">
-                                        <img class="rounded-full" src="./content/image/tour nội thành/gom-bat-trang.jpg" alt="">
-                                        <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                                                làng gốm</p>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative transform group hover:opacity-90">
-                                <a class="" href="#">
-                                        <img class="rounded-full" src="./content/image/tour nội thành/hoang-thanh.jpg" alt="">
-                                        <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                                                làng gốm</p>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative transform group hover:opacity-90">
-                                <a class="" href="#">
-                                        <img class="rounded-full" src="./content/image/tour nội thành/chua-huong.jpg" alt="">
-                                        <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                                                làng gốm</p>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative transform group hover:opacity-90">
-                                <a class="" href="#">
-                                        <img class="rounded-full" src="./content/image/tour nội thành/chua-tran-quoc.jpg" alt="">
-                                        <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                                                làng gốm</p>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative transform group hover:opacity-90">
-                                <a class="" href="#">
-                                        <img class="rounded-full" src="./content/image/tour nội thành/con-vien-le-nin.jpg" alt="">
-                                        <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                                                làng gốm</p>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative transform group hover:opacity-90">
-                                <a class="" href="#">
-                                        <img class="rounded-full" src="./content/image/tour nội thành/ho-guom.jpg" alt="">
-                                        <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                                                làng gốm</p>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative transform group hover:opacity-90">
-                                <a class="" href="#">
-                                        <img class="rounded-full" src="./content/image/tour nội thành/pho-co.jpg" alt="">
-                                        <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                                                làng gốm</p>
-                                </a>
-                        </div>
+                        <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
+                                <img class="rounded-full" src="./content/image/tour nội thành/gom-bat-trang.jpg" alt="">
+                                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
+                                        làng gốm</p>
+                        </a>
+                        <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
+                                <img class="rounded-full" src="./content/image/tour nội thành/hoang-thanh.jpg" alt="">
+                                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
+                                        làng gốm</p>
+                        </a>
+                        <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
+                                <img class="rounded-full" src="./content/image/tour nội thành/chua-huong.jpg" alt="">
+                                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
+                                        làng gốm</p>
+                        </a>
+                        <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
+                                <img class="rounded-full" src="./content/image/tour nội thành/chua-tran-quoc.jpg" alt="">
+                                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
+                                        làng gốm</p>
+                        </a>
+                        <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
+                                <img class="rounded-full" src="./content/image/tour nội thành/con-vien-le-nin.jpg" alt="">
+                                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
+                                        làng gốm</p>
+                        </a>
+                        <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
+                                <img class="rounded-full" src="./content/image/tour nội thành/ho-guom.jpg" alt="">
+                                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
+                                        làng gốm</p>
+                        </a>
+                        <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
+                                <img class="rounded-full" src="./content/image/tour nội thành/pho-co.jpg" alt="">
+                                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
+                                        làng gốm</p>
+                        </a>
                 </div>
         </section>
         <section class="mt-20 background1 py-10">
@@ -128,193 +112,97 @@
                         <p>Chọn ngay cho bạn tour phù hợp</p>
                         <div class="py-5">
                                 <h3 class="font-bold text-2xl uppercase"><a href="">điểm đến nội thành</a></h3>
-                                <img class="w-20 mx-225 pt-3" src="./content/image/gachvang.png" alt="">
+                                <img class="w-20 mx-auto pt-3" src="./content/image/gachvang.png" alt="">
                         </div>
                 </div>
                 <div class="noiThanh container mx-auto mt-10 mb-3">
-                        <div class="mx-6 relative group">
-                                <a class="" href="#">
-                                        <div class="overflow-hidden rounded-md border border-white">
-                                                <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
-                                        </div>
-                                        <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
-                                                <div class="text-center ">
-                                                        <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
-                                                        <p class="my-px">
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star-half-alt text-yellow-300"></i>
-                                                        </p>
-                                                        <!-- <span class="mr-3 line-through text-gray-500 text-lg">
+                        <a class="mx-6 relative group focus:outline-none" href="#">
+                                <div class="overflow-hidden rounded-md border border-white">
+                                        <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
+                                </div>
+                                <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                                        <div class="text-center ">
+                                                <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
+                                                <p class="my-px">
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star-half-alt text-yellow-300"></i>
+                                                </p>
+                                                <!-- <span class="mr-3 line-through text-gray-500 text-lg">
                                                         </span> -->
-                                                        <span class="text-lg font-bold">5,900,000₫</span>
-                                                </div>
+                                                <span class="text-lg font-bold">5,900,000₫</span>
                                         </div>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative group">
-                                <a class="" href="#">
-                                        <div class="overflow-hidden rounded-md border border-white">
-                                                <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
-                                        </div>
-                                        <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
-                                                <div class="text-center ">
-                                                        <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
-                                                        <p class="my-px">
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star-half-alt text-yellow-300"></i>
-                                                        </p>
-                                                        <!-- <span class="mr-3 line-through text-gray-500 text-lg">
+                                </div>
+                        </a>
+                        <a class="mx-6 relative group focus:outline-none" href="#">
+                                <div class="overflow-hidden rounded-md border border-white">
+                                        <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
+                                </div>
+                                <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                                        <div class="text-center ">
+                                                <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
+                                                <p class="my-px">
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star-half-alt text-yellow-300"></i>
+                                                </p>
+                                                <!-- <span class="mr-3 line-through text-gray-500 text-lg">
                                                         </span> -->
-                                                        <span class="text-lg font-bold">5,900,000₫</span>
-                                                </div>
+                                                <span class="text-lg font-bold">5,900,000₫</span>
                                         </div>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative group">
-                                <a class="" href="#">
-                                        <div class="overflow-hidden rounded-md border border-white">
-                                                <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
-                                        </div>
-                                        <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
-                                                <div class="text-center ">
-                                                        <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
-                                                        <p class="my-px">
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star-half-alt text-yellow-300"></i>
-                                                        </p>
-                                                        <!-- <span class="mr-3 line-through text-gray-500 text-lg">
+                                </div>
+                        </a>
+                        <a class="mx-6 relative group focus:outline-none" href="#">
+                                <div class="overflow-hidden rounded-md border border-white">
+                                        <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
+                                </div>
+                                <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                                        <div class="text-center ">
+                                                <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
+                                                <p class="my-px">
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star-half-alt text-yellow-300"></i>
+                                                </p>
+                                                <!-- <span class="mr-3 line-through text-gray-500 text-lg">
                                                         </span> -->
-                                                        <span class="text-lg font-bold">5,900,000₫</span>
-                                                </div>
+                                                <span class="text-lg font-bold">5,900,000₫</span>
                                         </div>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative group">
-                                <a class="" href="#">
-                                        <div class="overflow-hidden rounded-md border border-white">
-                                                <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
-                                        </div>
-                                        <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
-                                                <div class="text-center ">
-                                                        <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
-                                                        <p class="my-px">
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star-half-alt text-yellow-300"></i>
-                                                        </p>
-                                                        <!-- <span class="mr-3 line-through text-gray-500 text-lg">
+                                </div>
+                        </a>
+                        <a class="mx-6 relative group focus:outline-none" href="#">
+                                <div class="overflow-hidden rounded-md border border-white">
+                                        <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
+                                </div>
+                                <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                                        <div class="text-center ">
+                                                <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
+                                                <p class="my-px">
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star text-yellow-300"></i>
+                                                        <i class="fas fa-star-half-alt text-yellow-300"></i>
+                                                </p>
+                                                <!-- <span class="mr-3 line-through text-gray-500 text-lg">
                                                         </span> -->
-                                                        <span class="text-lg font-bold">5,900,000₫</span>
-                                                </div>
+                                                <span class="text-lg font-bold">5,900,000₫</span>
                                         </div>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative group">
-                                <a class="" href="#">
-                                        <div class="overflow-hidden rounded-md border border-white">
-                                                <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
-                                        </div>
-                                        <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
-                                                <div class="text-center ">
-                                                        <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
-                                                        <p class="my-px">
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star-half-alt text-yellow-300"></i>
-                                                        </p>
-                                                        <!-- <span class="mr-3 line-through text-gray-500 text-lg">
-                                                        </span> -->
-                                                        <span class="text-lg font-bold">5,900,000₫</span>
-                                                </div>
-                                        </div>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative group">
-                                <a class="" href="#">
-                                        <div class="overflow-hidden rounded-md border border-white">
-                                                <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
-                                        </div>
-                                        <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
-                                                <div class="text-center ">
-                                                        <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
-                                                        <p class="my-px">
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star-half-alt text-yellow-300"></i>
-                                                        </p>
-                                                        <!-- <span class="mr-3 line-through text-gray-500 text-lg">
-                                                        </span> -->
-                                                        <span class="text-lg font-bold">5,900,000₫</span>
-                                                </div>
-                                        </div>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative group">
-                                <a class="" href="#">
-                                        <div class="overflow-hidden rounded-md border border-white">
-                                                <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
-                                        </div>
-                                        <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
-                                                <div class="text-center ">
-                                                        <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
-                                                        <p class="my-px">
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star-half-alt text-yellow-300"></i>
-                                                        </p>
-                                                        <!-- <span class="mr-3 line-through text-gray-500 text-lg">
-                                                        </span> -->
-                                                        <span class="text-lg font-bold">5,900,000₫</span>
-                                                </div>
-                                        </div>
-                                </a>
-                        </div>
-                        <div class="mx-6 relative group">
-                                <a class="" href="#">
-                                        <div class="overflow-hidden rounded-md border border-white">
-                                                <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
-                                        </div>
-                                        <div class="absolute left-0 right-0 bottom-0 mb-10 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
-                                                <div class="text-center ">
-                                                        <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
-                                                        <p class="my-px">
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star text-yellow-300"></i>
-                                                                <i class="fas fa-star-half-alt text-yellow-300"></i>
-                                                        </p>
-                                                        <!-- <span class="mr-3 line-through text-gray-500 text-lg">
-                                                        </span> -->
-                                                        <span class="text-lg font-bold">5,900,000₫</span>
-                                                </div>
-                                        </div>
-                                </a>
-                        </div>
+                                </div>
+                        </a>
                 </div>
         </section>
         <section class="container mx-auto my-10">
                 <div class="text-center">
                         <div class="">
                                 <h3 class="font-bold text-2xl uppercase">lý do chọn HANOITOURIST</h3>
-                                <img class="w-20 mx-180 pt-2" src="./content/image/gachvang.png" alt="">
+                                <img class="w-20 mx-auto pt-2" src="./content/image/gachvang.png" alt="">
                         </div>
                         <div class="grid grid-cols-3 mx-28 gam-36 mt-10">
                                 <div>
@@ -382,7 +270,7 @@
                         <p>Chọn ngay cho bạn tour phù hợp</p>
                         <div class="py-5">
                                 <h3 class="font-bold text-2xl uppercase"><a href="">điểm đến ngoại thành</a></h3>
-                                <img class="w-20 mx-225 pt-3" src="./content/image/gachvang.png" alt="">
+                                <img class="w-20 mx-auto pt-3" src="./content/image/gachvang.png" alt="">
                         </div>
                 </div>
                 <div class="container mx-auto grid grid-cols-4 mt-5 mb-3">
@@ -506,10 +394,10 @@
                 <div class="col-span-1">
                         <div class="py-5 text-center">
                                 <h3 class="font-bold text-2xl uppercase">nhận xét</h3>
-                                <img class="w-20 mx-36 pt-2" src="./content/image/gachvang.png" alt="">
+                                <img class="w-20 mx-auto pt-2" src="./content/image/gachvang.png" alt="">
                         </div>
                         <div class="background5 binhLuan container mx-auto py-5 rounded-md">
-                                <div class="my-12">
+                                <div class="my-12 focus:outline-none">
                                         <img class="mx-36" src="./content/image/user.png">
                                         <p class="my-3 text-center">
                                                 <i class="fas fa-star text-blue-500"></i>
@@ -530,7 +418,7 @@
                                                 tuyệt với.</p>
                                         <span class="text-center block">-tên tour-</span>
                                 </div>
-                                <div class="my-12">
+                                <div class="my-12 focus:outline-none">
                                         <img class="mx-36" src="./content/image/user.png">
                                         <p class="my-3 text-center">
                                                 <i class="fas fa-star text-blue-500"></i>
@@ -551,7 +439,7 @@
                                                 tuyệt với.</p>
                                         <span class="text-center block">-tên tour-</span>
                                 </div>
-                                <div class="my-12">
+                                <div class="my-12 focus:outline-none">
                                         <img class="mx-36" src="./content/image/user.png">
                                         <p class="my-3 text-center">
                                                 <i class="fas fa-star text-blue-500"></i>
@@ -562,8 +450,7 @@
                                         </p>
                                         <span class="text-center block">Name</span>
                                         <p class="mx-10 italic my-3 text-justify">Tôi đi tour vòng quanh Hà Nội thấy các dịch vụ của công ty khá ổn
-                                                từ
-                                                khách sạn,
+                                                từ khách sạn,
                                                 nhà
                                                 hàng,
                                                 phương tiện di
@@ -577,7 +464,7 @@
                 <div class="col-span-3">
                         <div class="py-5 text-center">
                                 <h3 class="font-bold text-2xl uppercase">cẩn nang du lịch từ a - z</h3>
-                                <img class="w-20 mx-140 pt-2" src="./content/image/gachvang.png" alt="">
+                                <img class="w-20 mx-auto pt-2" src="./content/image/gachvang.png" alt="">
                         </div>
                         <div class="grid grid-cols-3 gap-10">
                                 <a class="group" href="">
@@ -629,7 +516,6 @@
                                         </div>
                                 </a>
                         </div>
-                </div>
         </section>
         <footer class="background4 bg-opacity-10 mt-10">
                 <?php require "footer.php"; ?>

@@ -43,7 +43,7 @@
         <div class="ml-10 pl-6 my-4">
             <h3 class="font-bold text-base my-1 uppercase">Tin Tức</h3>
             <ul>
-                <li class="py-2"><a class="text-sm hover:underline" href="#">Bản tin
+                <li class="py-2"><a class="text-sm hover:underline" href="news.php">Bản tin
                         Du Lịch</a></li>
                 <li class="py-2"><a class="text-sm hover:underline" href="#">Khám
                         phá du lịch</a></li>
@@ -58,8 +58,7 @@
         <div class="ml-10 pl-6 my-4">
             <h3 class="font-bold text-base my-1 uppercase">CHĂM SÓC KHÁCH HÀNG</h3>
             <ul>
-                <li class="py-2"><a class="text-sm hover:underline" href="#">Khách hàng
-                        thành viên</a>
+                <li class="py-2"><a class="text-sm hover:underline" href="#">Ưu đãi khách hàng</a>
                 </li>
                 <li class="py-2"><a class="text-sm hover:underline" href="#">Tải App</a>
                 </li>

@@ -11,14 +11,20 @@
     <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="./content/build/styles.css">
     <link rel="stylesheet" href="./content/css/product.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <style>
         .background4 {
             background-image: url('./content/image/background/background4.jpg');
         }
+
+        .nunito {
+            font-family: 'Nunito', sans-serif;
+        }
     </style>
 </head>
 
-<body>
+<body class="nunito">
     <header class="relative">
         <img src="./content/image/background/bg-product.jpg" alt="">
         <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
@@ -27,9 +33,9 @@
         <div class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
             <?php require "menu.php"; ?>
         </div>
-        <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white">
-            <h3 class="font-bold text-2xl uppercase text-center"><a href="">Tour nội thành - tên tour</a></h3>
-            <img class="w-20 mx-170 pt-3" src="./content/image/gachvang.png" alt="">
+        <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white bg-opacity-80 rounded-t-md">
+            <h3 class="font-bold text-2xl uppercase text-center "><a href="">Tour nội thành - tên tour</a></h3>
+            <img class="w-20 mx-170" src="./content/image/gachvang.png" alt="">
         </div>
     </header>
     <main class="">
@@ -41,34 +47,35 @@
             <h3><a class="uppercase text-sm" href="tourNoithanh.php">tên tour</a></h3>
         </section>
         <section class="bg-white my-5">
-            <div class="container mx-auto grid grid-cols-12 justify-center">
+            <div class="container mx-auto grid grid-cols-12 gap-10 justify-center">
                 <div class="col-span-6 my-5 bg-white m-2">
                     <div class="slider-for object-cover bg-gray-100">
-                        <div><img class="w-full object-cover" src="./content/image/1.jpg" alt=""></div>
-                        <div><img class="w-full object-cover" src="./content/image/van-mieu.jpg" alt=""></div>
-                        <div><img class="w-full object-cover" src="./content/image/tran-quoc.jpg" alt=""></div>
-                        <div><img class="w-full object-cover" src="./content/image/bao-tang.jpg" alt=""></div>
-                        <div><img class="w-full object-cover" src="./content/image/hoan-kiem.jpg" alt=""></div>
+                        <div class="focus:outline-none"><img class="w-full object-cover" src="./content/image/1.jpg" alt=""></div>
+                        <div class="focus:outline-none"><img class="w-full object-cover" src="./content/image/van-mieu.jpg" alt=""></div>
+                        <div class="focus:outline-none"><img class="w-full object-cover" src="./content/image/tran-quoc.jpg" alt=""></div>
+                        <div class="focus:outline-none"><img class="w-full object-cover" src="./content/image/bao-tang.jpg" alt=""></div>
+                        <div class="focus:outline-none"><img class="w-full object-cover" src="./content/image/hoan-kiem.jpg" alt=""></div>
                     </div>
                     <div class="slider-nav bg-gray-100 mt-5">
-                        <div class="px-1 "><img src="./content/image/van-mieu.jpg" alt="">
+                        <div class="px-1 focus:outline-none"><img src="./content/image/van-mieu.jpg" alt="">
                         </div>
-                        <div class="px-1 "><img src="./content/image/1.jpg" alt="">
+                        <div class="px-1 focus:outline-none"><img src="./content/image/1.jpg" alt="">
                         </div>
-                        <div class="px-1 "><img src="./content/image/tran-quoc.jpg" alt="">
+                        <div class="px-1 focus:outline-none"><img src="./content/image/tran-quoc.jpg" alt="">
                         </div>
-                        <div class="px-1 "><img src="./content/image/bao-tang.jpg" alt="">
+                        <div class="px-1 focus:outline-none"><img src="./content/image/bao-tang.jpg" alt="">
                         </div>
-                        <div class="px-1 "><img src="./content/image/hoan-kiem.jpg" alt="">
+                        <div class="px-1 focus:outline-none"><img src="./content/image/hoan-kiem.jpg" alt="">
                         </div>
                     </div>
 
                 </div>
                 <div class="col-span-6 my-5 bg-gray-100 bg-opacity-50 pl-2.5">
-                    <div class="px-10 pt-5">
-                        <h2 class="font-bold text-4xl">Tên tour</h2>
-                        <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-3"></div>
-                        <!-- ten sp -->
+
+                    <h2 class="font-bold text-4xl bg-yellow-300 py-2 px-5">Tên tour</h2>
+                    <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-3"></div>
+                    <!-- ten sp -->
+                    <div class="px-5">
                         <div class="my-7 flex items-center">
                             <p class="my-px">
                                 <i class="fas fa-star text-yellow-300"></i>
@@ -166,7 +173,7 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
                             <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
@@ -181,7 +188,7 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
                             <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
@@ -196,7 +203,7 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
                             <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
@@ -211,7 +218,7 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
                             <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
@@ -226,7 +233,7 @@
                                         <p class="text-sm">Hà Nội</p>
                                     </div>
                                     <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
-                                    <button class="border w-full pt-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                                 </div>
                             </a>
                         </div>

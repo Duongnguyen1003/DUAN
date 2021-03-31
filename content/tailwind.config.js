@@ -3,9 +3,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: theme => ({
-        'background5': "url('image/background5.jpg')",
-      }),
       margin: {
         '85': '21.25rem',
         '140': '35rem',
@@ -33,7 +30,14 @@ module.exports = {
         '70': '.7',
         '80': '.8',
         '90': '.9',
-      }
+      },
+      fontFamily: {
+        'helvetica': ['Helvetica', 'Arial', 'sans-serif'],
+        'georgia': ['ui-serif', 'Georgia'],
+        'SFmono': ['ui-monospace', 'SFMono-Regular'],
+        'oswald': ['Oswald'],
+        'nunito': ['Nunito', 'sans-serif'],
+       },
     },
   },
   variants: {

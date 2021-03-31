@@ -4,8 +4,13 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        // dots: false,
+        dots: true,
     });
+
+
+
+});
+$(document).ready(function () {
     $('.noiThanh').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -13,6 +18,8 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
         arrows: false,
     });
+});
+$(document).ready(function () {
     $('.topLike').slick({
         // dots: true,
         infinite: false,
@@ -48,6 +55,8 @@ $(document).ready(function () {
             }
         ]
     });
+});
+$(document).ready(function () {
     $('.binhLuan').slick({
         slidesToShow: 1,
         slidesToScroll: 1,

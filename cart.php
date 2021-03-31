@@ -27,9 +27,9 @@
         <div class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
             <?php require "menu.php"; ?>
         </div>
-        <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white">
-            <h3 class="font-bold text-2xl uppercase text-center"><a href="">Đặt tour - tên tour</a></h3>
-            <img class="w-20 mx-170 pt-3" src="./content/image/gachvang.png" alt="">
+        <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white bg-opacity-80 rounded-t-md">
+            <h3 class="font-bold text-2xl uppercase text-center "><a href="">Đặt tour - tên tour</a></h3>
+            <img class="w-20 mx-170" src="./content/image/gachvang.png" alt="">
         </div>
     </header>
     <main class="container mx-auto">
@@ -42,43 +42,43 @@
             <i class="fas fa-angle-right px-3 items-center flex text-sm text-gray-400"></i>
             <h3><a class="uppercase text-sm" href="tourNoithanh.php">đặt tour</a></h3>
         </section>
-        <section class="grid grid-cols-3 gap-10">
-            <div class="col-span-1">
-                <img src="./content/image/1.jpg" alt="">
-            </div>
-            <div class="col-span-2 ml-24">
-                <table class="">
-                    <thead>
-                        <tr class="py-5">
-                            <th class="text-2xl">Du lịch Lăng bác - văn miếu - hỏa lò</th>
-                        </tr>
-                    </thead>
-                    <tbody class="">
-                        <tr class="">
-                            <td class="pb-2 pt-10">Mã tour:</td>
-                            <td class=" pt-10 font-bold">15786</td>
-                        </tr>
-                        <tr class="">
-                            <td class="py-2">Thời gian:</td>
-                            <td class="font-bold">1 ngày</td>
-                        </tr>
-                        <tr class="">
-                            <td class="py-2">Giá:</td>
-                            <td class="font-bold">2,790,000 đ/khách</td>
-                        </tr>
-                        <tr class="">
-                            <td class="py-2">Ngày</td>
-                            <td class="font-bold">1 ngày</td>
-                        </tr>
-                        <tr class="">
-                            <td class="py-2">Nơi khởi hành:</td>
-                            <td class="font-bold">Hà Nội</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <section class="grid grid-cols-2 mx-10">
+            <img class="" src="./content/image/1.jpg" alt="">
+            <table class="shadow-md">
+                <thead>
+                    <tr class="py-5">
+                        <th colspan="2" class="text-2xl py-10 border">Du lịch Lăng bác - văn miếu - hỏa lò</th>
+                    </tr>
+                </thead>
+                <tbody class="">
+                    <tr class="">
+                        <td class="py-2 border pl-10">Mã tour:</td>
+                        <td class="font-bold border pl-10">15786</td>
+                    </tr>
+                    <tr class="">
+                        <td class="py-2 border pl-10">Thời gian:</td>
+                        <td class="font-bold border pl-10">1 ngày</td>
+                    </tr>
+                    <tr class="">
+                        <td class="py-2 border pl-10">Giá:</td>
+                        <td class="font-bold border pl-10">2,790,000 đ/khách</td>
+                    </tr>
+                    <tr class="">
+                        <td class="py-2 border pl-10">Ngày</td>
+                        <td class="font-bold border pl-10">1 ngày</td>
+                    </tr>
+                    <tr class="">
+                        <td class="py-2 border pl-10">Nơi khởi hành:</td>
+                        <td class="font-bold border pl-10">Quận Ba Đình</td>
+                    </tr>
+                    <tr class="">
+                        <td class="py-2 border pl-10">Số chỗ còn nhận:</td>
+                        <td class="font-bold border pl-10">10</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-        <section>
+        <section class="mx-56 p-5 shadow-md my-10">
             <h2 class="text-center text-2xl font-bold my-5">BẢNG GIÁ TOUR CHI TIẾT</h2>
             <table class="w-full">
                 <tr class="text-center">
@@ -97,7 +97,7 @@
                 </tr>
             </table>
         </section>
-        <form action="#" method="POST" class="">
+        <form action="#" method="POST" class="mx-56 shadow-md p-5">
             <h2 class="text-center text-2xl font-bold my-5">THÔNG TIN LIÊN HỆ</h2>
             <!-- end confirm password -->
             <div class=" ">
