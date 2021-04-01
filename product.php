@@ -159,15 +159,40 @@
                                 <img class="mx-auto my-5" src="./content/image/tran-quoc.jpg" alt="">
                             </div>
                         </div>
-                        <div>
+                        <div class="mt-10">
                             <div class="">
-                                <h2 class="text-3xl container mx-auto text-red-500">GIÁ TOUR TRỌN GÓI CHO 01 KHÁCH</h2>
+                                <span class="text-2xl container mx-auto text-red-500">GIÁ TOUR TRỌN GÓI CHO 01 KHÁCH</span>
                                 <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
                             </div>
-                            <div class="mt-5">
-                                <p class="text-justify">Du lịch Chùa Hương là một nét đẹp trong đời sống tâm linh của người dân Việt Nam, bởi chùa là nơi linh thiêng để gìn giữ và truyền bá tư tưởng của Đức Phật. Để quên đi những ồn ào của cuộc sống và cầu mong cho gia đình, người thân một năm mới tràn đầy hạnh phúc và sức khỏe. Hãy đồng hành cùng Du Lịch Việt trong touir lễ chùa Hương này để khám phá cảnh đẹp và lễ chùa linh thiêng.</p>
-                                <img class="mx-auto my-5" src="./content/image/hoan-kiem.jpg" alt="">
-                            </div>
+                            <table class="mx-auto my-10 ">
+                                <thead>
+                                    <tr>
+                                        <th class="border py-1 font-bold">GIÁ TOUR BAO GỒM</th>
+                                        <th class="border py-1 font-bold">GIÁ TOUR CHƯA BAO GỒM</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="border px-5">
+                                            <ul>
+                                                <li class="list-disc list-inside py-1">Phương tiện: Ôtô máy lạnh</li>
+                                                <li class="list-disc list-inside py-1">Xích lô vòng quanh khu phố cổ</li>
+                                                <li class="list-disc list-inside py-1">Ăn trưa 1 bữa</li>
+                                                <li class="list-disc list-inside py-1">Hướng dẫn viên: Chuyên nghiệp, phục vụ nhiệt tình, thành thạo, chu đáo suốt tuyến.</li>
+                                                <li class="list-disc list-inside py-1">Vé tham quan vào cửa một lần tại các điểm tham quan</li>
+                                                <li class="list-disc list-inside py-1">Bảo hiểm du lịch suốt tuyến</li>
+                                            </ul>
+                                        </td>
+                                        <td class="border px-5">
+                                            <ul>
+                                                <li class="list-disc list-inside py-1">Chi tiêu cá nhân ngoài chương trình</li>
+                                                <li class="list-disc list-inside py-1">Thuế VAT 10%</li>
+                                                <li class="list-disc list-inside py-1">Thăm quan ngoài chương trình tour</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <div class=" col-span-3 ml-10 p-5 bg-gray-100 bg-opacity-50">
@@ -176,6 +201,21 @@
                             <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2 mx-2"></div>
                         </div>
                         <div class="mt-5">
+                            <a class="group shadow-lg rounded-md" href="">
+                                <div class="overflow-hidden rounded-md border border-white">
+                                    <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
+                                </div>
+                                <div class="text-left px-5 py-3">
+                                    <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
+                                    <div class="flex mt-2  items-center">
+                                        <i class="fas fa-map-marker-alt py-2 pr-5"></i>
+                                        <p class="text-sm">Hà Nội</p>
+                                    </div>
+                                    <p class="py-1">Giá: <span class="font-bold text-red-400">670,000</span> ₫/khách</p>
+                                    <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
+                                </div>
+                            </a>
+                            <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
                                     <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
