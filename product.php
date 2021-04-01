@@ -120,40 +120,54 @@
             <div class=" container mx-auto">
                 <div class="bg-white grid grid-cols-12 my-10">
                     <div class="col-span-9 bg-gray-100 p-5 bg-opacity-50">
-                        <div class="">
-                            <h2 class="text-3xl container mx-auto">Mô tả sản phẩm</h2>
-                            <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
-                        </div>
-                        <div class="mt-5">
-                            <p class="text-justify">Du lịch Chùa Hương là một nét đẹp trong đời sống tâm linh của người dân Việt Nam, bởi chùa là nơi linh thiêng để gìn giữ và truyền bá tư tưởng của Đức Phật. Để quên đi những ồn ào của cuộc sống và cầu mong cho gia đình, người thân một năm mới tràn đầy hạnh phúc và sức khỏe. Hãy đồng hành cùng Du Lịch Việt trong touir lễ chùa Hương này để khám phá cảnh đẹp và lễ chùa linh thiêng.</p>
-                            <img class="mx-auto my-5" src="./content/image/hoan-kiem.jpg" alt="">
-                        </div>
-                        <div class="my-5">
-                            <h2 class="text-3xl container mx-auto">Lịch trình</h2>
-                            <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
+                        <div>
+                            <div class="">
+                                <h2 class="text-3xl container mx-auto">Mô tả sản phẩm</h2>
+                                <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
+                            </div>
+                            <div class="mt-5">
+                                <p class="text-justify">Du lịch Chùa Hương là một nét đẹp trong đời sống tâm linh của người dân Việt Nam, bởi chùa là nơi linh thiêng để gìn giữ và truyền bá tư tưởng của Đức Phật. Để quên đi những ồn ào của cuộc sống và cầu mong cho gia đình, người thân một năm mới tràn đầy hạnh phúc và sức khỏe. Hãy đồng hành cùng Du Lịch Việt trong touir lễ chùa Hương này để khám phá cảnh đẹp và lễ chùa linh thiêng.</p>
+                                <img class="mx-auto my-5" src="./content/image/hoan-kiem.jpg" alt="">
+                            </div>
                         </div>
                         <div>
-                            <ul>
-                                <li class="text-justify"><span class="font-bold">07:45 – 08:30:</span> Hướng dẫn viên và lái xe đón Quý khách tại khách sạn đi tham quan Chùa Trấn Quốc – ngôi chùa thiêng nằm bên bờ Hồ Tây.</li>
-                                <li class="text-justify"><span class="font-bold">09:00:</span> Quý khách tham quan Lăng Chủ tịch Hồ Chí Minh – nơi an nghỉ cuối cùng của vị lãnh tụ kính yêu của dân tộc Việt Nam, và Nhà sàn Bác Hồ – nơi Bác ở và làm việc từ năm 1958 đến năm 1969.</li>
-                                <li class="text-justify"><span class="font-bold">10:00:</span> Điểm dừng chân tiếp theo là Chùa Một Cột – ngôi chùa có kiến trúc độc đáo mang dáng dấp của một đài sen mọc lên giữa lòng hồ vuông vắn.</li>
-                            </ul>
-                            <img class="mx-auto my-5" src="./content/image/hoan-kiem.jpg" alt="">
+                            <div class="my-5">
+                                <h2 class="text-3xl container mx-auto">Lịch trình</h2>
+                                <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="text-justify"><span class="font-bold">07:45 – 08:30:</span> Hướng dẫn viên và lái xe đón Quý khách tại khách sạn đi tham quan Chùa Trấn Quốc – ngôi chùa thiêng nằm bên bờ Hồ Tây.</li>
+                                    <li class="text-justify"><span class="font-bold">09:00:</span> Quý khách tham quan Lăng Chủ tịch Hồ Chí Minh – nơi an nghỉ cuối cùng của vị lãnh tụ kính yêu của dân tộc Việt Nam, và Nhà sàn Bác Hồ – nơi Bác ở và làm việc từ năm 1958 đến năm 1969.</li>
+                                    <li class="text-justify"><span class="font-bold">10:00:</span> Điểm dừng chân tiếp theo là Chùa Một Cột – ngôi chùa có kiến trúc độc đáo mang dáng dấp của một đài sen mọc lên giữa lòng hồ vuông vắn.</li>
+                                </ul>
+                                <img class="mx-auto my-5" src="./content/image/hoan-kiem.jpg" alt="">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="text-justify"><span class="font-bold">11:00:</span> Quý khách đi tham quan Bảo tàng Dân tộc học, nơi lưu giữ và trưng bày nhiều hiện vật văn hoá của cả 54 dân tộc Việt Nam.</li>
+                                    <li class="text-justify"><span class="font-bold">13:00:</span> Quý khách nghỉ ngơi, ăn trưa tại nhà hàng trong phố cổ.</li>
+                                    <li class="text-justify"><span class="font-bold">14:00:</span> Quý khách đi tham quan Văn Miếu Quốc Tử Giám – trường đại học đầu tiên của Việt Nam thờ Khổng Tử.</li>
+                                </ul>
+                                <img class="mx-auto my-5" src="./content/image/van-mieu.jpg" alt="">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="text-justify"><span class="font-bold">15:30:</span> Điểm dừng chân cuối cùng là Hồ Hoàn Kiếm và Đền Ngọc Sơn.</li>
+                                    <li class="text-justify"><span class="font-bold">16:00:</span> Xe đưa Quý khách về khách sạn. Kết thúc chương trình.</li>
+                                </ul>
+                                <img class="mx-auto my-5" src="./content/image/tran-quoc.jpg" alt="">
+                            </div>
                         </div>
                         <div>
-                            <ul>
-                                <li class="text-justify"><span class="font-bold">11:00:</span> Quý khách đi tham quan Bảo tàng Dân tộc học, nơi lưu giữ và trưng bày nhiều hiện vật văn hoá của cả 54 dân tộc Việt Nam.</li>
-                                <li class="text-justify"><span class="font-bold">13:00:</span> Quý khách nghỉ ngơi, ăn trưa tại nhà hàng trong phố cổ.</li>
-                                <li class="text-justify"><span class="font-bold">14:00:</span> Quý khách đi tham quan Văn Miếu Quốc Tử Giám – trường đại học đầu tiên của Việt Nam thờ Khổng Tử.</li>
-                            </ul>
-                            <img class="mx-auto my-5" src="./content/image/van-mieu.jpg" alt="">
-                        </div>
-                        <div>
-                            <ul>
-                                <li class="text-justify"><span class="font-bold">15:30:</span> Điểm dừng chân cuối cùng là Hồ Hoàn Kiếm và Đền Ngọc Sơn.</li>
-                                <li class="text-justify"><span class="font-bold">16:00:</span> Xe đưa Quý khách về khách sạn. Kết thúc chương trình.</li>
-                            </ul>
-                            <img class="mx-auto my-5" src="./content/image/tran-quoc.jpg" alt="">
+                            <div class="">
+                                <h2 class="text-3xl container mx-auto text-red-500">GIÁ TOUR TRỌN GÓI CHO 01 KHÁCH</h2>
+                                <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
+                            </div>
+                            <div class="mt-5">
+                                <p class="text-justify">Du lịch Chùa Hương là một nét đẹp trong đời sống tâm linh của người dân Việt Nam, bởi chùa là nơi linh thiêng để gìn giữ và truyền bá tư tưởng của Đức Phật. Để quên đi những ồn ào của cuộc sống và cầu mong cho gia đình, người thân một năm mới tràn đầy hạnh phúc và sức khỏe. Hãy đồng hành cùng Du Lịch Việt trong touir lễ chùa Hương này để khám phá cảnh đẹp và lễ chùa linh thiêng.</p>
+                                <img class="mx-auto my-5" src="./content/image/hoan-kiem.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class=" col-span-3 ml-10 p-5 bg-gray-100 bg-opacity-50">

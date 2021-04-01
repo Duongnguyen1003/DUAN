@@ -87,7 +87,7 @@
                         </div>
                         <button class=" bg-yellow-400 w-40 py-3 border hover:bg-white hover:border-yellow-400 focus:outline-none" id="next1">Xem chi tiết<i class="fas fa-plus-square px-1"></i></button>
                     </div>
-                    <div class="pt-5 hidden" id="show1">
+                    <div class="pt-5 hidden " id="show1">
                         <h3 class="text-blue-500 font-bold text-2xl pb-5">Voucher SKY</h3>
                         <div class="text-left">
                             <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">11 - 15</span> người khi đặt tour.</p>

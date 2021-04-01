@@ -71,10 +71,6 @@
                         <td class="py-2 border pl-10">Nơi khởi hành:</td>
                         <td class="font-bold border pl-10">Quận Ba Đình</td>
                     </tr>
-                    <tr class="">
-                        <td class="py-2 border pl-10">Số chỗ còn nhận:</td>
-                        <td class="font-bold border pl-10">10</td>
-                    </tr>
                 </tbody>
             </table>
         </section>

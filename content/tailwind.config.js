@@ -42,13 +42,14 @@ module.exports = {
   },
   variants: {
     extend: {
+      display: ['hover', 'focus','group-hover'],
       fontFamily: ['hover', 'focus', 'group-hover'],
       divideColor: ['group-hover'],
       scale: ['active', 'group-hover', 'hover'],
       backgroundImage: ['hover', 'focus', 'group-hover'],
       opacity: ['active', 'hover', 'group-hover'],
       backgroundOpacity: ['active', 'hover', 'group-hover'],
-      transform: ['hover', 'focus', 'group-hover'],
+      transform: ['active','hover', 'focus', 'group-hover'],
       translate: ['active', 'group-hover', 'hover'],
       animation: ['hover', 'focus', 'responsive', 'motion-safe', 'motion-reduce', 'group-hover'],
       borderRadius: ['hover', 'focus', 'group-hover'],

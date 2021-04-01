@@ -115,8 +115,8 @@
                                 <img class="w-20 mx-auto pt-3" src="./content/image/gachvang.png" alt="">
                         </div>
                 </div>
-                <div class="noiThanh container mx-auto mt-10 mb-3">
-                        <a class="mx-6 relative group focus:outline-none" href="#">
+                <div class="noiThanh container mx-auto">
+                        <a class="mx-6 relative py-10 group focus:outline-none" href="#">
                                 <div class="overflow-hidden rounded-md border border-white">
                                         <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
                                 </div>
@@ -136,7 +136,7 @@
                                         </div>
                                 </div>
                         </a>
-                        <a class="mx-6 relative group focus:outline-none" href="#">
+                        <a class="mx-6 relative py-10 group focus:outline-none" href="#">
                                 <div class="overflow-hidden rounded-md border border-white">
                                         <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
                                 </div>
@@ -156,7 +156,7 @@
                                         </div>
                                 </div>
                         </a>
-                        <a class="mx-6 relative group focus:outline-none" href="#">
+                        <a class="mx-6 relative py-10 group focus:outline-none" href="#">
                                 <div class="overflow-hidden rounded-md border border-white">
                                         <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
                                 </div>
@@ -176,7 +176,7 @@
                                         </div>
                                 </div>
                         </a>
-                        <a class="mx-6 relative group focus:outline-none" href="#">
+                        <a class="mx-6 relative py-10 group focus:outline-none" href="#">
                                 <div class="overflow-hidden rounded-md border border-white">
                                         <img class="transition duration-300 transform group-hover:scale-105" src="./content/image/1.jpg" alt="">
                                 </div>
@@ -198,7 +198,7 @@
                         </a>
                 </div>
         </section>
-        <section class="container mx-auto my-10">
+        <section class="container mx-auto my-16">
                 <div class="text-center">
                         <div class="">
                                 <h3 class="font-bold text-2xl uppercase">lý do chọn HANOITOURIST</h3>
@@ -226,7 +226,7 @@
                         </div>
                 </div>
         </section>
-        <section class="background3 bg-cover bg-center bg-fixed bg-no-repeat py-10 mt-20">
+        <section class="background3 bg-cover bg-center bg-fixed bg-no-repeat py-10 my-10">
                 <div class="text-center">
                         <p class="mx-150 py-2 text-white">Sự hài lòng của khách hàng làm niềm vui của chúng tôi</p>
                         <div class="py-5">
@@ -234,7 +234,7 @@
                                 <img class="w-20 mx-225 pt-3" src="./content/image/gachtrang.png" alt="">
                         </div>
                 </div>
-                <div class="grid grid-cols-4 container mx-auto px-28 gap-10 mt-10">
+                <div class="grid grid-cols-4 container mx-auto px-28 gap-10">
                         <div>
                                 <img class="px-28" src="./content/image/lý do chọn/airplane-around-earth.png" alt="">
                                 <div class="text-center">

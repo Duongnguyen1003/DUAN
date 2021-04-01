@@ -45,13 +45,13 @@
             <ul>
                 <li class="py-2"><a class="text-sm hover:underline" href="news.php">Bản tin
                         Du Lịch</a></li>
-                <li class="py-2"><a class="text-sm hover:underline" href="#">Khám
+                <li class="py-2"><a class="text-sm hover:underline" href="news.php">Khám
                         phá du lịch</a></li>
-                <li class="py-2"><a class="text-sm hover:underline" href="#">Kinh
+                <li class="py-2"><a class="text-sm hover:underline" href="news.php">Kinh
                         nghiệm du lịch</a></li>
-                <li class="py-2"> <a class="text-sm hover:underline" href="#">Sự
+                <li class="py-2"> <a class="text-sm hover:underline" href="news.php">Sự
                         kiện du lịch</a></li>
-                <li class="py-2"> <a class="text-sm hover:underline" href="#">Tuyển
+                <li class="py-2"> <a class="text-sm hover:underline" href="news.php">Tuyển
                         dụng Du Lịch</a></li>
             </ul>
         </div>
